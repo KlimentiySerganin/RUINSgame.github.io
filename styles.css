@@ -67,12 +67,58 @@ button:hover {
     margin: 20px;
 }
 
-.feature h3 {
+.feature h3,
+.feature p {
     color: #fff;
 }
 
-.feature p {
+.links {
+    margin-top: 50px;
+}
+
+.links h3 {
     color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+/* Exact colors */
+.youtube {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.youtube:hover {
+    background-color: #CC0000;
+}
+
+.discord {
+    background-color: #5865F2;
+    color: #fff;
+}
+
+.discord:hover {
+    background-color: #4752C4;
+}
+
+.support {
+    background-color: #FF8C00;
+    color: #fff;
+}
+
+.support:hover {
+    background-color: #CC7300;
 }
 
 footer {
