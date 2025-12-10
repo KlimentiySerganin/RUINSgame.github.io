@@ -38,11 +38,12 @@
         .hotbar button {
             background-color: transparent; /* Полностью прозрачная кнопка */
             color: #ffffff;
-            border: none; /* Убрали контур */
+            border: none; /* Без контура, как ранее */
             padding: 10px 20px;
             cursor: pointer;
             font-size: 16px;
             transition: background-color 0.3s;
+            text-decoration: none; /* Скрываем подчёркивание с ссылками */
         }
 
         .hotbar button:hover {
@@ -89,10 +90,10 @@
         <img src="logo.png" alt="Logo" class="logo">
         <!-- Кнопки справа -->
         <div class="buttons">
-            <button>Play</button>
-            <button>Discord</button>
-            <button>Report</button>
-            <button>Wiki</button>
+            <a href="https://discord.gg/GK5xkAfdqZ" target="_blank" style="text-decoration: none;"><button>Play</button></a>
+            <a href="https://discord.gg/GK5xkAfdqZ" target="_blank" style="text-decoration: none;"><button>Discord</button></a>
+            <button onclick="alert('Dont work today')">Report</button>
+            <button onclick="alert('Dont work today')">Wiki</button>
         </div>
     </nav>
 
